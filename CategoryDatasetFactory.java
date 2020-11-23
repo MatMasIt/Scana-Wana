@@ -13,13 +13,8 @@ public class CategoryDatasetFactory {
 		//nome_canzone,likes,dislikes,views
 		String likes = "Likes";
 		String dislikes = "Dislikes";
-		String views = "Views";
-		
-		
-		
-		
+		String views = "Views";		
 		DefaultCategoryDataset dataset = new DefaultCategoryDataset();
-		
 		File f = new File(path);
 		Scanner s = new Scanner(f);
 		String line="";
